@@ -22,8 +22,10 @@
 % Reformat the abstract section
 \renewenvironment{abstract}{%
 	\hfill
-	\footnotesize
+	\small
 	\begin{shaded}
+		% Indent lists in the abstract
+		\setlist[1]{leftmargin=1em}
 }{
 		\par
 	\end{shaded}
