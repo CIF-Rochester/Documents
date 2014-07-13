@@ -8,4 +8,4 @@ The CIF constitution.
 CIF's acceptable use policy document, specifying what constitutes acceptable use of our systems and services.
 
 #### Common
-Common style file for CIF documents
+Common style files for CIF documents.
