@@ -1,9 +1,33 @@
+\usepackage[margin=1.618in]{geometry}
 \usepackage[default]{sourcesanspro}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{parskip}
+\usepackage{framed}
 \usepackage{xcolor}
+
+% 1em of space between paragraphs
+\setlength{\parskip}{1em}
+
+% Reformat the page title
+\makeatletter
+\renewcommand\@maketitle{%
+	{\LARGE\bfseries\@title\par}
+	{\normalsize\@date\par}
+	\vskip 1em \par
+}
+\makeatother
+
+% Reformat the abstract section
+\renewenvironment{abstract}{%
+	\hfill
+	\footnotesize
+	\begin{shaded}
+}{
+		\par
+	\end{shaded}
+}
 
 % Use hanging indentation on section titles
 \titlelabel{\llap{\thetitle\quad}}
@@ -12,8 +36,12 @@
 \setlist[1]{leftmargin=0mm}
 
 % Custom colors
+\definecolor{cif-light-grey}{rgb}{0.941,0.949,0.949}
 \definecolor{cif-black}{rgb}{0.155,0.215,0.255}
 \definecolor{cif-blue}{rgb}{0.145,0.475,0.745}
+
+% Shaded boxes will have a light grey background
+\colorlet{shadecolor}{cif-light-grey}
 
 % Link colors
 \hypersetup{%
