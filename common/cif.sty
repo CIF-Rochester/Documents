@@ -1,0 +1,26 @@
+\usepackage[default]{sourcesanspro}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{xcolor}
+
+% Use hanging indentation on section titles
+\titlelabel{\llap{\thetitle\quad}}
+
+% Use hanging indentation for lists
+\setlist[1]{leftmargin=0mm}
+
+% Custom colors
+\definecolor{cif-black}{rgb}{0.155,0.215,0.255}
+\definecolor{cif-blue}{rgb}{0.145,0.475,0.745}
+
+% Link colors
+\hypersetup{%
+	colorlinks = true,
+	linkcolor  = cif-blue,
+	urlcolor   = cif-blue
+}
+
+% Use cif-black as the font color
+\color{cif-black}
