@@ -1,8 +1,11 @@
 # Documents
 LaTeX documents for CIF.
 
-##### Constitution
+#### Constitution
 The CIF constitution.
 
-##### AUP
+#### AUP
 CIF's acceptable use policy document, specifying what constitutes acceptable use of our systems and services.
+
+#### Common
+Common style file for CIF documents
