@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass[12pt]{article}
 \usepackage{../common/cif}
 
 % Creates a hyperlink to the Rochester AUP with the required label argument
@@ -86,7 +86,6 @@ You may also not use CIF resources in a way that causes a Denial of Service, suc
 \section{Accepting Terms and Conditions} % (fold)
 
 By signing this document, you agree to all above terms and conditions and may use CIF's resources within the guidelines outlined above.
-\bigbreak
 \bigbreak
 \bigbreak
 
